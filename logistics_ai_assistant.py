@@ -40,6 +40,19 @@ temperature = st.sidebar.slider(
     value=0.3,
     step=0.1
 )
+st.sidebar.title("About")
+
+st.sidebar.info(
+    """
+    AI-powered logistics planning assistant.
+
+    Features:
+    - Transport mode recommendations
+    - Cost analysis
+    - Risk assessment
+    - Sustainability insights
+    """
+)
 
 # --------------------------------------------------
 # INPUT SECTION
@@ -140,5 +153,9 @@ Keep the response professional and practical.
         result = response.choices[0].message.content
 
     st.success("Recommendation Generated")
+    
+    st.metric("Shipment Weight", f"{weight} kg")
+st.metric("Urgency", urgency)
 
     st.markdown(result)
+    
