@@ -331,5 +331,4 @@ with tab3:
         "Estimated Sustainability Rating",
         "B+"
     )
-```
 
