@@ -1,6 +1,6 @@
 # 🚚 LogiLLM Control Tower
 
-![Application Image Demo](prompt.png)
+![Application Image Demo](Prompt.png)
 
 AI-powered logistics planning and shipment decision support platform built with **Python**, **Streamlit**, and **OpenAI**.
 
@@ -26,7 +26,7 @@ LogiLLM Control Tower helps logistics and supply chain professionals evaluate sh
 
 ### AI Recommendation Output
 
-![AI Recommendation](response.png)
+![AI Recommendation](Response.png)
 
 ## Run Locally
 
