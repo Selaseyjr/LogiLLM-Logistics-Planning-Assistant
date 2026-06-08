@@ -153,9 +153,6 @@ Keep the response professional and practical.
         result = response.choices[0].message.content
 
     st.success("Recommendation Generated")
-    
-    st.metric("Shipment Weight", f"{weight} kg")
-st.metric("Urgency", urgency)
 
     st.markdown(result)
     
