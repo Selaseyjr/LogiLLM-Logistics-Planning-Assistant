@@ -1,4 +1,3 @@
-```python
 import os
 from openai import OpenAI
 import streamlit as st
@@ -332,8 +331,5 @@ with tab3:
         "Estimated Sustainability Rating",
         "B+"
     )
-```
-
-```
 ```
 
