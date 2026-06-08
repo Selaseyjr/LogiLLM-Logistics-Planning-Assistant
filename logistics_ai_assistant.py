@@ -156,3 +156,5 @@ Keep the response professional and practical.
 
     st.markdown(result)
     
+st.metric("Shipment Weight", f"{weight} kg")
+st.metric("Urgency", urgency)
